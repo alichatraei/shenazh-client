@@ -4,13 +4,14 @@ import { RiSearch2Line } from "react-icons/ri";
 import { MdOutlineLocationOn } from "react-icons/md";
 import MobileHeader from "./mobile/MobileHeader";
 import MobileNavigationBar from "../navigation-bar/mobile/MobileNavigationBar";
-const Header = () => {
+const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div className="md:hidden">
+    <main className="w-1/4 h-full container mx-auto bg-white">
       <MobileHeader />
+      {children}
       <MobileNavigationBar />
-    </div>
+    </main>
   );
 };
 
-export default Header;
+export default Layout;

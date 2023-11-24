@@ -1,7 +1,7 @@
 const LoadingComponent = () => {
   return (
     <div className="w-screen h-screen flex items-center justify-center bg-primary text-white">
-      LoadingComponent
+      شناژ - لطفا منتظر بمانید
     </div>
   );
 };

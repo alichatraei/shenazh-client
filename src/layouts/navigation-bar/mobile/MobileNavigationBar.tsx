@@ -8,7 +8,7 @@ import {
 
 const MobileNavigationBar = () => {
   return (
-    <div className="absolute min-w-full h-16 bottom-0 flex flex-1 items-center bg-white shadow-2xl justify-between px-8 border-t-2">
+    <div className="absolute w-1/4 h-16 bottom-0 flex  items-center bg-white justify-between px-8 border-t-2">
       <div className="flex flex-col justify-center text-primary items-center">
         <RiHome5Fill size={26} />
         <span>شناژ</span>
